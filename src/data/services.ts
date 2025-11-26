@@ -113,19 +113,19 @@ export const services: Service[] = [
     ],
     tiers: [
       {
-        name: 'Lactic Acid Peel (20%)',
+        name: 'Lactic Acid Peel',
         price: 100,
         description:
           'A gentle, hydrating AHA peel ideal for sensitive skin and first-time peel clients, providing a soft glow while improving tone and dryness with minimal irritation. A gentle yet effective AHA peel derived from sour milk, lactic acid exfoliates while hydrating the skin, helping remove toxins, bacteria, and dead skin cells. This peel targets uneven tone, dullness, acne, acne scars, blackheads, whiteheads, dry or dehydrated skin, sun damage, blotchy pigmentation, fine wrinkles, early loss of elasticity, large pores, age spots, eczema, seborrheic keratosis, hyperkeratosis, and actinic keratosis. It offers visible brightening and smoother texture with minimal downtime. Not suitable for clients with active eczema flare-ups, open wounds or cold sores, or those who cannot tolerate AHA acids.'
       },
       {
-        name: 'Salicylic Acid Peel (10%/20%)',
+        name: 'Salicylic Acid Peel',
         price: 110,
         description:
           'A medium-strength BHA peel derived from willow bark that penetrates deep into the pores to dissolve oil, clear congestion, and treat acne at the root. This peel targets acne, acne scars, blackheads, whiteheads, large pores, sun damage, blotchy pigmentation, fine wrinkles, dry skin, and in-grown hairs. It is especially effective for oily and breakout-prone skin because salicylic acid penetrates through sebum to clear buildup inside the pores rather than just on the surface. It gently lifts away old skin cells, boosts collagen, reduces inflammation, and may cause visible peeling for 2–3 days. Not suitable for pregnancy or breastfeeding, Accutane users, anyone with an aspirin allergy, or clients with very dry or compromised skin.'
       },
       {
-        name: 'Glycolic Acid Peel (20%)',
+        name: 'Glycolic Acid Peel',
         price: 120,
         description:
           'An anti-aging, brightening AHA peel that smooths texture, fades sun damage, and targets uneven skin tone for a clearer, more radiant complexion. A professional-strength 20% AHA peel derived from sugar cane, glycolic acid has the smallest molecular size of all AHAs, allowing it to penetrate quickly and break down dull, dead skin cells to reveal a smoother, brighter complexion. This peel targets uneven skin tone, sun damage, hyperpigmentation, fine lines, acne, blackheads, dryness, blotchy pigmentation, texture irregularities, enlarged pores, age spots, and early loss of elasticity. It also stimulates collagen for firmer, plumper-looking skin. Mild redness or tingling may occur. Not recommended for very sensitive or sunburned skin, clients using strong retinoids (must stop 5–7 days before), or those who prefer to avoid AHAs during pregnancy or breastfeeding.'
