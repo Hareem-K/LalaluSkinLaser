@@ -50,7 +50,7 @@ const aftercareById: Record<string, Aftercare> = {
     'Expect mild redness & swelling for 1-3 days, possibly light flaking.',
     'Avoid direct sun exposure & heat (saunas, workouts) for at least 48-72 hours.',
     'Do not apply makeup for 24–48 hours.',
-    'Use a gentle, hydrating cleanser & moisturizer; avoid actives such as retinol, glycolic, and salicylic acid for at least 7 days.',
+    'Use a gentle, hydrating cleanser & moisturizer; avoid actives such as retinol, glycolic, and salicylic acid for at least 7 days before and after the appointment.',
     'Apply SPF 50 daily and avoid direct sun exposure — your skin is extra sensitive to the sun.',
     'Do not pick or peel flaking skin.',
     'Complete healing generally takes 2-3 weeks.'
