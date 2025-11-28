@@ -105,7 +105,8 @@ const aftercareById: Record<string, Aftercare> = {
     'Your skin may feel extra smooth & sensitive.',
     'Avoid exfoliants & active ingredients (retinol, acids) for 3-5 days.',
     'Wear SPF daily as skin is more prone to UV damage.',
-    'Avoid makeup for 12-24 hours to prevent clogging.'
+    'Avoid makeup for 12-24 hours to prevent clogging.',
+    'Avoid waxing/threading for 7 days'
   ],
   'skin-brightening': [
     'Avoid heavy makeup for 12 hours to let your skin breathe.',
