@@ -118,13 +118,14 @@ const About: React.FC = () => {
                   </p>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative flex justify-center">
                 <img 
-                  src="https://images.pexels.com/photos/3985327/pexels-photo-3985327.jpeg" 
+                  // src="https://images.pexels.com/photos/3985327/pexels-photo-3985327.jpeg"
+                  src="/ServicePhotos/room1.png" 
                   alt="Spa treatment room" 
                   className="rounded-2xl shadow-2xl"
                 />
-                <div className="absolute -bottom-6 -left-6 bg-[#b7a0c7] text-white p-6 rounded-xl shadow-lg">
+                <div className="absolute -bottom-6 -left-6 bg-[#6a4c69] text-white p-6 rounded-xl shadow-lg">
                   <p className="text-2xl font-bold">100+</p>
                   <p className="text-sm opacity-90">Happy Clients</p>
                 </div>
@@ -161,7 +162,7 @@ const About: React.FC = () => {
             </div>
             <p className="text-gray-600 mt-6">
               Curious what we use in-clinic? We trust <span className="font-medium">Circadia</span>.{' '}
-              <a href="/products" className="text-purple-600 hover:text-purple-700 underline">See our products</a>.
+              <a href="/products" className="text-[#6a4c69] hover:text-[#b4a1d3] underline">See our products</a>.
             </p>
           </div>
         </section>
