@@ -27,7 +27,7 @@ export const services: Service[] = [
       },
       {
         name: 'Morpheus8 Microneedling with RF',
-        price: 250,
+        price: '250–400' as unknown as number,
         description:
           'Combining microneedling with radiofrequency energy, Morpheus8 delivers heat deep into the dermis to remodel collagen and tighten skin at a structural level. It effectively targets fine lines, sagging, enlarged pores, and acne scars. Optional neck add-on to firm and lift the delicate neck area for a smoother, more contoured appearance.'
       },
@@ -73,7 +73,7 @@ export const services: Service[] = [
       'Restores a radiant, dewy glow'
     ],
     tiers: [
-      { name: 'Regular',  price: 150, description: 'Cleanse, exfoliate, extract, and hydrate for instant glow.' },
+      { name: 'Regular', originalPrice: 150, price: 100, description: 'Cleanse, exfoliate, extract, and hydrate for instant glow.' },
       { name: 'Deluxe (Lymphatic Drainage)', price: 160, description: 'Includes lymphatic drainage to reduce puffiness and boost detox.' },
       { name: 'Platinum (Lip + Eye Boosters)', price: 200, description: 'Targets fine lines and dryness around lips and eyes.' },
     ]

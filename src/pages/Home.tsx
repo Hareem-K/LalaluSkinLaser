@@ -221,24 +221,22 @@ const Home: React.FC = () => {
                 
               </Card> */}
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 text-white p-6 text-center">
-                <h3 className="text-xl font-bold mb-2">Black Friday Special</h3>
+                <h3 className="text-xl font-bold mb-2">Special</h3>
                 <p className="mb-4">HydraFacial + Microneedling</p>
                 <div className="text-2xl font-bold">$150</div>
-                <p className="mt-2 text-sm opacity-90">Nov 14 – Nov 30 • <a href="/book" className="underline">Book Now</a></p>
+                <p className="mt-2 text-sm opacity-90"><a href="/book" className="underline">Book Now</a></p>
               </Card>
 
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 text-white p-6 text-center">
-                <h3 className="text-xl font-bold mb-2">Black Friday Special</h3>
-                <p className="mb-4">Morpheus8 RF (Face + Neck)</p>
-                <div className="text-2xl font-bold">$200</div>
-                <p className="mt-2 text-sm opacity-90">Nov 14 – Nov 30 • <a href="/book" className="underline">Book Now</a></p>
+                <h3 className="text-xl font-bold mb-2">BOGO</h3>
+                <p className="mb-4">Buy one service, get the second 20% off when booked together as a package</p>
+                <p className="mt-2 text-sm opacity-90">Package Deal • <a href="/book" className="underline">Book Now</a></p>
               </Card>
 
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 text-white p-6 text-center">
-                <h3 className="text-xl font-bold mb-2">Black Friday Special</h3>
-                <p className="mb-4">HydraFacial + LED Light Therapy</p>
-                <div className="text-2xl font-bold">$100</div>
-                <p className="mt-2 text-sm opacity-90">Nov 14 – Nov 30 • <a href="/book" className="underline">Book Now</a></p>
+                <h3 className="text-xl font-bold mb-2">B2GO</h3>
+                <p className="mb-4">Buy two services, get the third 50% off when booked together as a package</p>
+                <p className="mt-2 text-sm opacity-90">Package Deal • <a href="/book" className="underline">Book Now</a></p>
               </Card>
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 text-white p-6 text-center">
                 <h3 className="text-xl font-bold mb-2">Free Add-On</h3>
@@ -295,7 +293,7 @@ const Home: React.FC = () => {
               <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <Card hover className="overflow-hidden">
                   <img 
-                    src="https://images.pexels.com/photos/3985329/pexels-photo-3985329.jpeg" 
+                    src="/ServicePhotos/microneedling.png" 
                     alt="Microneedling" 
                     className="w-full h-48 object-cover"
                   />
@@ -312,7 +310,7 @@ const Home: React.FC = () => {
                 
                 <Card hover className="overflow-hidden">
                   <img 
-                    src="https://images.pexels.com/photos/3985327/pexels-photo-3985327.jpeg" 
+                    src="/ServicePhotos/microdermabrasion.png"  
                     alt="Microdermabrasion" 
                     className="w-full h-48 object-cover"
                   />
@@ -329,7 +327,7 @@ const Home: React.FC = () => {
                 
                 <Card hover className="overflow-hidden">
                   <img 
-                    src="https://images.pexels.com/photos/3985360/pexels-photo-3985360.jpeg" 
+                    src="/Circadia/mask-2.jpg" 
                     alt="Hydrafacial" 
                     className="w-full h-48 object-cover"
                   />
