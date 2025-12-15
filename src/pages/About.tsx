@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { Heart, Users, Award, Clock, Home } from 'lucide-react';
 import Card from '../components/UI/Card';
 import { Helmet } from 'react-helmet-async';
+import PhotoGallery, { type GalleryItem } from '../components/PhotoGallery';
 
 
 const About: React.FC = () => {
@@ -33,6 +34,18 @@ const About: React.FC = () => {
       description: 'Open Monday to Friday from 11AM – 7PM and weekends from 12PM – 5PM to fit treatments into your schedule.'
     }
   ];
+
+  const galleryItems: GalleryItem[] = [
+    {
+      type: 'video',
+      src: '/ServicePhotos/discoverlalalu.MP4',
+      caption: 'A quick look inside our calm and welcoming studio.',
+      // poster: '/ServicePhotos/video-cover.png', // optional but recommended
+    },
+    { type: 'image', src: '/ServicePhotos/room1.png' },
+    { type: 'image', src: '/ServicePhotos/room2.png' },
+  ];
+
 
   return (
     <>
@@ -134,8 +147,24 @@ const About: React.FC = () => {
           </div>
         </section>
 
-        {/* Values Section */}
+        {/* Gallery Section */}
         <section className="py-20 bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center mb-10">
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+                Inside Our Studio
+              </h2>
+              <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+                A calm, welcoming space designed for comfort, privacy, and results.
+              </p>
+            </div>
+
+            <PhotoGallery items={galleryItems} />
+          </div>
+        </section>
+
+        {/* Values Section */}
+        <section className="py-20">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-16">
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
@@ -168,7 +197,7 @@ const About: React.FC = () => {
         </section>
 
         {/* Services Overview */}
-        <section className="py-20 bg-white">
+        <section className="py-20 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="relative">
