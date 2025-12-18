@@ -79,6 +79,24 @@ export const services: Service[] = [
     ]
   },
   {
+    id: 'diamond-glow',
+    name: 'Diamond Glow Facial',
+    price: 100,
+    originalPrice: 150,
+    duration: 60,
+    description:
+      'A next-level resurfacing facial that combines diamond-tip exfoliation, deep pore cleansing, and targeted serum infusion in one treatment. This facial deeply polishes the skin while delivering professional-grade serums to address concerns like dullness, congestion, dryness, and uneven tone—leaving your skin instantly smoother, brighter, and more radiant.',
+    category: 'facial',
+    benefits: [
+      'Deeply exfoliates and resurfaces the skin',
+      'Cleanses pores and removes buildup',
+      'Infuses customized serums into the skin',
+      'Improves skin tone and texture',
+      'Boosts hydration and radiance',
+      'Leaves skin instantly smooth and glowing'
+    ]
+  },
+  {
     id: 'dermaplaning',
     name: 'Dermaplaning',
     price: 100,
