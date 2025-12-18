@@ -83,7 +83,7 @@ export const services: Service[] = [
     name: 'Diamond Glow Facial',
     price: 100,
     originalPrice: 150,
-    duration: 60,
+    duration: 90,
     description:
       'A next-level resurfacing facial that combines diamond-tip exfoliation, deep pore cleansing, and targeted serum infusion in one treatment. This facial deeply polishes the skin while delivering professional-grade serums to address concerns like dullness, congestion, dryness, and uneven tone—leaving your skin instantly smoother, brighter, and more radiant.',
     category: 'facial',
