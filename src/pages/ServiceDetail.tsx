@@ -101,6 +101,16 @@ const aftercareById: Record<string, Aftercare> = {
       'Very light peeling is normal — but blistering is not. Reach out immediately if this occurs.',
     ]
   },
+  'diamond-glow': [
+    'Mild redness, tightness, or warmth may occur and typically resolves within a few hours.',
+    'Avoid makeup for 24 hours to allow the skin to fully recover.',
+    'Do not exfoliate or use active ingredients (retinol, AHAs, BHAs, benzoyl peroxide) for at least 48h - 1 week.',
+    'Use a gentle cleanser and hydrating moisturizer only for the first few days.',
+    'Avoid heat exposure such as saunas, steam rooms, hot yoga, or intense workouts for 24–48 hours.',
+    'Apply broad-spectrum SPF 30–50 daily, as freshly exfoliated skin is more sun-sensitive.',
+    'Avoid direct sun exposure and tanning beds for at least 48 hours.',
+    'Keep skin well hydrated and drink plenty of water to support healing and glow.'
+  ],
   dermaplaning: [
     'Your skin may feel extra smooth & sensitive.',
     'Avoid exfoliants & active ingredients (retinol, acids) for 3-5 days.',
