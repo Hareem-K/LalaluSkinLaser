@@ -238,7 +238,7 @@ const Products: React.FC = () => {
 
   const categories = [
     { title: 'Cleansers', blurb: 'pH-balanced, gentle, effective', img: IMG.cleanser, alt: 'Circadia professional facial cleansers used in clinical skincare treatments', videos: ['/Circadia/Cleansing-Mandelic.mp4', '/Circadia/Vitamin-Veil-Cleanser-Kris-Reel.mp4', '/Circadia/VV1.mp4']},
-    { title: 'Serums', blurb: 'Targeted actives for visible change', img: IMG.serum, alt: 'Circadia treatment serums applied to the skin for targeted results', videos: ['/Circadia/VitaminC-Serum.mp4', '/Circadia/Serum-71-2.mp4', '/Circadia/Serum-71.mp4'] },
+    { title: 'Serums', blurb: 'Targeted actives for visible change', img: IMG.serum, alt: 'Circadia treatment serums applied to the skin for targeted results', videos: ['/Circadia/VitaminC-Serum.mp4', '/Circadia/Serum-71-2.mp4'] },
     { title: 'Moisturizers + SPF', blurb: 'Barrier support & daily defense', img: IMG.macro, alt: 'Circadia moisturizer and SPF products supporting the skin barrier', videos: ['/Circadia/AquaporinWater.mov'] },
     { title: 'Enzymes', blurb: 'Gentle exfoliation for instant glow', img: IMG.CocoaEnzyme, alt: 'Circadia cocoa enzyme exfoliation treatment applied during a facial', videos: ['/Circadia/Cocoa-Enzyme-Sound.mp4'] },
   ];
