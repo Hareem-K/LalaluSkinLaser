@@ -214,6 +214,7 @@ const Products: React.FC = () => {
     mask3: '/Circadia/PreProFacial10.jpg',
     p5: '/Circadia/Aquabiotic-2.jpg',
     logowhite: '/Circadia/circadia-logo-white.png',
+    CocoaEnzyme: '/Circadia/Cocoa-Enzyme.jpg',
 
   };
 
@@ -232,6 +233,86 @@ const Products: React.FC = () => {
 
   const [lightboxOpen, setLightboxOpen] = useState(false);
   const [lightboxIndex, setLightboxIndex] = useState(0);
+  const [videoOpen, setVideoOpen] = useState(false);
+  const [activeVideos, setActiveVideos] = useState<string[]>([]);
+
+  const categories = [
+    { title: 'Cleansers', blurb: 'pH-balanced, gentle, effective', img: IMG.cleanser, alt: 'Circadia professional facial cleansers used in clinical skincare treatments', videos: ['/Circadia/Cleansing-Mandelic.mp4', '/Circadia/Vitamin-Veil-Cleanser-Kris-Reel.mp4', '/Circadia/VV1.mp4']},
+    { title: 'Serums', blurb: 'Targeted actives for visible change', img: IMG.serum, alt: 'Circadia treatment serums applied to the skin for targeted results', videos: ['/Circadia/VitaminC-Serum.mp4', '/Circadia/Serum-71-2.mp4'] },
+    { title: 'Moisturizers + SPF', blurb: 'Barrier support & daily defense', img: IMG.macro, alt: 'Circadia moisturizer and SPF products supporting the skin barrier', videos: ['/Circadia/AquaporinWater.mov'] },
+    { title: 'Enzymes', blurb: 'Gentle exfoliation for instant glow', img: IMG.CocoaEnzyme, alt: 'Circadia cocoa enzyme exfoliation treatment applied during a facial', videos: ['/Circadia/Cocoa-Enzyme-Sound.mp4'] },
+  ];
+
+  // video pop up for client loved categories
+  const VideoCarouselModal: React.FC<{
+    videos: string[];
+    onClose: () => void;
+  }> = ({ videos, onClose }) => {
+    const [i, setI] = useState(0);
+    const clamp = (n: number) => (n + videos.length) % videos.length;
+
+    const next = () => setI((v) => clamp(v + 1));
+    const prev = () => setI((v) => clamp(v - 1));
+
+    useEffect(() => {
+      const onKey = (e: KeyboardEvent) => {
+        if (e.key === 'Escape') onClose();
+        if (e.key === 'ArrowRight') next();
+        if (e.key === 'ArrowLeft') prev();
+      };
+      window.addEventListener('keydown', onKey);
+      return () => window.removeEventListener('keydown', onKey);
+    }, []);
+
+    return (
+      <div className="fixed inset-0 z-[110] bg-black/80 backdrop-blur-sm flex items-center justify-center p-4">
+        {/* Close */}
+        <button
+          onClick={onClose}
+          className="absolute top-4 right-4 text-white/90 hover:text-white"
+          aria-label="Close"
+        >
+          <X className="h-7 w-7" />
+        </button>
+
+        {/* Prev */}
+        {videos.length > 1 && (
+          <button
+            onClick={prev}
+            className="absolute left-4 md:left-8 text-white/90 hover:text-white"
+            aria-label="Previous video"
+          >
+            <ChevronLeft className="h-9 w-9" />
+          </button>
+        )}
+
+        {/* Video */}
+        <div className="w-full max-w-4xl">
+          <video
+            key={videos[i]} // forces reload when switching
+            src={videos[i]}
+            controls
+            autoPlay
+            playsInline
+            className="w-full max-h-[80vh] rounded-xl shadow-2xl bg-black"
+          />
+        </div>
+
+        {/* Next */}
+        {videos.length > 1 && (
+          <button
+            onClick={next}
+            className="absolute right-4 md:right-8 text-white/90 hover:text-white"
+            aria-label="Next video"
+          >
+            <ChevronRight className="h-9 w-9" />
+          </button>
+        )}
+      </div>
+    );
+  };
+
+
 
   return (
     <>
@@ -380,23 +461,39 @@ const Products: React.FC = () => {
         <RevealSection>
             <section className="py-16 bg-[#F7F8FC]">
             <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-                <h3 className="text-2xl md:text-3xl font-bold text-center text-[#0F1E3D] mb-10">
-                Client-Loved Categories
+                <h3 className="text-2xl md:text-3xl font-bold text-center text-[#0F1E3D] mb-2">
+                  Client-Loved Categories
                 </h3>
-                <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-                {[
-                    { title: 'Cleansers', blurb: 'pH-balanced, gentle, effective', img: IMG.cleanser },
-                    { title: 'Serums', blurb: 'Targeted actives for visible change', img: IMG.serum },
-                    { title: 'Moisturizers + SPF', blurb: 'Barrier support & daily defense', img: IMG.macro },
-                ].map((c) => (
-                    <Card key={c.title} className="overflow-hidden">
-                    <img src={c.img} alt={c.title} className="w-full h-48 object-cover" loading="lazy" />
-                    <div className="p-6 text-center">
-                        <h4 className="text-xl font-semibold text-[#2d2430]">{c.title}</h4>
-                        <p className="text-gray-600">{c.blurb}</p>
-                    </div>
-                    </Card>
-                ))}
+                <p className="text-gray-700 text-sm text-center mb-8">
+                  Tap a category to learn more.
+                </p>
+
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-8 place-items-center">
+                  {categories.map((c) => (
+                    <button
+                      key={c.title}
+                      onClick={() => {
+                        if (c.videos?.length) {
+                          setActiveVideos(c.videos);
+                          setVideoOpen(true);
+                        }
+                      }}
+                      className="text-left"
+                    >
+                      <Card className="overflow-hidden hover:scale-[1.01] transition cursor-pointer">
+                        <img
+                          src={c.img}
+                          alt={c.title}
+                          className="w-full h-48 object-cover"
+                          loading="lazy"
+                        />
+                        <div className="p-6 text-center">
+                          <h4 className="text-xl font-semibold text-[#2d2430]">{c.title}</h4>
+                          <p className="text-gray-600">{c.blurb}</p>
+                        </div>
+                      </Card>
+                    </button>
+                  ))} 
                 </div>
             </div>
             </section>
@@ -441,6 +538,18 @@ const Products: React.FC = () => {
             onClose={() => setLightboxOpen(false)}
             />
         )}
+
+        {videoOpen && activeVideos.length > 0 && (
+          <VideoCarouselModal
+            videos={activeVideos}
+            onClose={() => {
+              setVideoOpen(false);
+              setActiveVideos([]);
+            }}
+          />
+        )}
+
+
 
         {/* TRANSFORMATIONS — single-image carousel */}
             {transformationSlides.length > 0 && (
