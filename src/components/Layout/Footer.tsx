@@ -89,7 +89,7 @@ const Footer: React.FC = () => {
 
         {/* Bottom */}
         <div className="border-t border-gray-700 mt-8 pt-8 text-center text-grey-300">
-          <p>&copy; 2025 Lalalu Skin & Laser. All rights reserved.</p>
+          <p>&copy; 2026 Lalalu Skin & Laser. All rights reserved.</p>
         </div>
       </div>
     </footer>
