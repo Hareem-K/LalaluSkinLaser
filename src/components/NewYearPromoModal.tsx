@@ -12,18 +12,10 @@ const NewYearPromoModal: React.FC = () => {
 
   useEffect(() => {
         const now = new Date();
-
         if (now <= PROMO_END_DATE && !localStorage.getItem(STORAGE_KEY)) {
             setOpen(true);
-            document.body.style.overflow = 'hidden';
         }
-
-        return () => {
-            document.body.style.overflow = '';
-        };
     }, []);
-
-
 
   const close = () => {
     localStorage.setItem(STORAGE_KEY, 'true');
