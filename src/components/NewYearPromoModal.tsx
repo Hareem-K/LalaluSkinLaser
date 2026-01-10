@@ -12,13 +12,13 @@ const NewYearPromoModal: React.FC = () => {
 
   useEffect(() => {
         const now = new Date();
-        if (now <= PROMO_END_DATE && !localStorage.getItem(STORAGE_KEY)) {
+        if (now <= PROMO_END_DATE && !sessionStorage.getItem(STORAGE_KEY)) {
             setOpen(true);
         }
     }, []);
 
   const close = () => {
-    localStorage.setItem(STORAGE_KEY, 'true');
+    sessionStorage.setItem(STORAGE_KEY, 'true');
     setOpen(false);
   };
 
