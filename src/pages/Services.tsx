@@ -193,7 +193,7 @@ const Services: React.FC = () => {
               </div>
               <div>
                 <p className="font-semibold">✨ Add Dermaplaning or Face Cupping</p>
-                <p className="text-sm opacity-90">To any facial for free</p>
+                <p className="text-sm opacity-90">To any facial for just $20</p>
               </div>
             </div>
           </div>

@@ -4,6 +4,7 @@ import { Star, Clock, Users, Award, ArrowRight } from 'lucide-react';
 import Button from '../components/UI/Button';
 import Card from '../components/UI/Card';
 import { Helmet } from 'react-helmet-async';
+import NewYearPromoModal from '../components/NewYearPromoModal';
 
 /* ---- tiny reveal-on-scroll hook ---- */
 const useReveal = () => {
@@ -157,6 +158,7 @@ const Home: React.FC = () => {
         })}</script>
       </Helmet>
 
+      <NewYearPromoModal />
 
       <div className="min-h-screen">
         {/* Hero Section */}
@@ -239,10 +241,11 @@ const Home: React.FC = () => {
                 <p className="mt-2 text-sm opacity-90">Package Deal • <a href="/book" className="underline">Book Now</a></p>
               </Card>
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 text-white p-6 text-center">
-                <h3 className="text-xl font-bold mb-2">Free Add-On</h3>
-                <p className="mb-4">Complimentary Dermaplaning or Face Cupping add-on</p>
-                <div className="text-2xl font-bold">With Any Facial</div>
-              </Card>
+              <h3 className="text-xl font-bold mb-2">Add-On Available</h3>
+              <p className="mb-4">Dermaplaning or Face Cupping</p>
+              <div className="text-2xl font-bold">$20 Add-On</div>
+              <p className="text-sm mt-2 opacity-80">With any facial</p>
+            </Card>
             </div>
           </div>
         </section>
