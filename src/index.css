@@ -3,3 +3,74 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Offer cards */
+.offer-card {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.08);
+  backdrop-filter: blur(8px);
+}
+
+.offer-title {
+  font-weight: 600;
+  color: #1f2937;
+  margin-bottom: 0.25rem;
+}
+
+.offer-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #6a4c69;
+}
+
+.offer-desc {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin-top: 0.5rem;
+}
+
+/* Fireworks */
+.firework {
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,215,128,0.6), transparent 60%);
+  animation: firework 3s ease-in-out infinite;
+  opacity: 0.6;
+}
+
+.firework-1 { top: 10%; left: 15%; animation-delay: 0s; }
+.firework-2 { top: 20%; right: 10%; animation-delay: 1s; }
+.firework-3 { bottom: 15%; left: 50%; animation-delay: 2s; }
+
+@keyframes firework {
+  0% { transform: scale(0.3); opacity: 0; }
+  50% { opacity: 0.8; }
+  100% { transform: scale(1.2); opacity: 0; }
+}
+
+.sparkle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, #f5d98b 0%, rgba(245,217,139,0) 70%);
+  border-radius: 50%;
+  opacity: 0;
+  animation: sparkleFloat 6s ease-in-out infinite;
+}
+
+.sparkle-1 { top: 15%; left: 20%; animation-delay: 0s; }
+.sparkle-2 { top: 30%; right: 25%; animation-delay: 1.5s; }
+.sparkle-3 { bottom: 25%; left: 35%; animation-delay: 3s; }
+.sparkle-4 { bottom: 15%; right: 20%; animation-delay: 4.5s; }
+
+@keyframes sparkleFloat {
+  0% { opacity: 0; transform: translateY(10px) scale(0.6); }
+  30% { opacity: 0.8; }
+  60% { opacity: 0.4; }
+  100% { opacity: 0; transform: translateY(-10px) scale(1); }
+}
