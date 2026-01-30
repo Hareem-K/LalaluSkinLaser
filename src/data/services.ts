@@ -168,6 +168,93 @@ export const services: Service[] = [
     ]
   },
   {
+    id: 'c2o2-oxygen-facial',
+    name: 'C₂O₂ Oxygen Facial (Circadia Oxygen Rx)',
+    price: 150,
+    duration: 90,
+    description:
+      'A professional oxygenating facial designed to calm inflammation, reduce acne-causing bacteria, and restore balance to compromised skin. Using Circadia’s Oxygen Rx, this treatment gently exfoliates while increasing oxygen supply at the skin’s surface to promote healing, clarity, and a refreshed glow. Ideal for acne-prone, rosacea-prone, and sensitive skin.',
+    category: 'facial',
+    benefits: [
+      'Kills acne-causing bacteria without drying the skin',
+      'Reduces redness, inflammation, and sensitivity',
+      'Oxygenates skin to support healing and repair',
+      'Calms active breakouts and helps prevent future congestion',
+      'Strengthens compromised or stressed skin',
+      'Improves overall clarity, tone, and balance',
+      'Safe for reactive and rosacea-prone skin',
+    ],
+    media: [
+      { type: 'video', src: '/Circadia/C2O2/Step-4-oxygen.mp4' },
+      { type: 'video', src: '/Circadia/C2O2/Step-3-Charcoal-Mask.mp4' },
+      { type: 'image', src: '/Circadia/C2O2/CharcoalDieu2.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
+      { type: 'image', src: '/Circadia/C2O2/OxygenLiz2.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
+      { type: 'image', src: '/Circadia/C2O2/CharcoalSplash.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
+    ]
+  },
+  {
+    id: 'acne-treatment',
+    name: 'Acne Treatment Facial',
+    price: 104,
+    originalPrice: 130,
+    duration: 75,
+    description: 'A targeted facial designed for acne-prone and congested skin. This treatment uses deep cleansing, exfoliation, and soothing professional-grade products to reduce breakouts, calm inflammation, and promote clearer, healthier skin over time.',
+    category: 'facial',
+    benefits: [
+      'Reduces active acne and blemishes',
+      'Calms redness and inflammation',
+      'Helps prevent future breakouts',
+      'Unclogs pores for clearer, smoother skin'
+    ],
+    badges: [{ text: '20% OFF', color: 'red' }]
+  },
+  {
+    id: 'customized-back-facial',
+    name: 'Customized Back Facial',
+    price: 150,
+    duration: 60,
+    description: 'A customized back treatment that deeply cleanses, exfoliates, and hydrates to restore clarity and smoothness. Ideal for treating back acne or simply refreshing the skin. Optional add-ons like Morpheus8 RF microneedling, enzyme peel, or microdermabrasion enhance results.',
+    category: 'facial',
+    benefits: [
+      'Deeply cleanses pores and removes buildup',
+      'Targets congestion and back acne (“bacne”)',
+      'Exfoliates dead skin cells and smooths texture',
+      'Hydrates and nourishes the back for a healthy glow',
+      'Restores comfort and confidence in your skin'
+    ],
+    tiers: [
+      {
+        name: 'Bacne Solution',
+        price: 150,
+        description:
+          'A clarifying back facial focused on reducing acne, congestion, and inflammation. Includes steam cleanse, exfoliation, extractions, antibacterial mask, and soothing hydration. Optional add-ons: Morpheus8 RF Microneedling (+$50), Enzyme Peel, or Microdermabrasion for advanced resurfacing and acne control.'
+      },
+      {
+        name: 'Signature Back Refresh',
+        price: 120,
+        description:
+          'A rejuvenating back facial designed for smoother, hydrated, and radiant skin. Includes deep cleansing, exfoliation, mask therapy, and nourishing moisture finish. Optional add-ons: Enzyme Peel or Microdermabrasion to boost glow and refine texture.'
+      }
+    ]
+  },
+  {
+    id: 'oxygen-facial',
+    name: 'Oxygen Facial',
+    price: 104,
+    originalPrice: 130,
+    duration: 60,
+    description: 'A revitalizing treatment that infuses oxygen and nutrient-rich serums deep into the skin. It delivers instant hydration, boosts circulation, and supports collagen production, leaving your complexion refreshed, plump, and glowing.',
+    category: 'facial',
+    benefits: [
+      'Deeply hydrates and plumps the skin',
+      'Brightens and evens skin tone',
+      'Promotes collagen and elastin for rejuvenation',
+      'Detoxifies by killing bacteria and reducing redness',
+      'Clears and refines pores to reduce congestion'
+    ],
+    badges: [{ text: '20% OFF', color: 'red' }]
+  },
+  {
     id: 'vitamin-c-facial',
     name: 'Vitamin C Facial',
     price: 100,
@@ -254,52 +341,6 @@ export const services: Service[] = [
     badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
-    id: 'acne-treatment',
-    name: 'Acne Treatment Facial',
-    price: 104,
-    originalPrice: 130,
-    duration: 75,
-    description: 'A targeted facial designed for acne-prone and congested skin. This treatment uses deep cleansing, exfoliation, and soothing professional-grade products to reduce breakouts, calm inflammation, and promote clearer, healthier skin over time.',
-    category: 'facial',
-    benefits: [
-      'Reduces active acne and blemishes',
-      'Calms redness and inflammation',
-      'Helps prevent future breakouts',
-      'Unclogs pores for clearer, smoother skin'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
-  },
-  {
-    id: 'customized-back-facial',
-    name: 'Customized Back Facial',
-    price: 150,
-    duration: 60,
-    description: 'A customized back treatment that deeply cleanses, exfoliates, and hydrates to restore clarity and smoothness. Ideal for treating back acne or simply refreshing the skin. Optional add-ons like Morpheus8 RF microneedling, enzyme peel, or microdermabrasion enhance results.',
-    category: 'facial',
-    benefits: [
-      'Deeply cleanses pores and removes buildup',
-      'Targets congestion and back acne (“bacne”)',
-      'Exfoliates dead skin cells and smooths texture',
-      'Hydrates and nourishes the back for a healthy glow',
-      'Restores comfort and confidence in your skin'
-    ],
-    tiers: [
-      {
-        name: 'Bacne Solution',
-        price: 150,
-        description:
-          'A clarifying back facial focused on reducing acne, congestion, and inflammation. Includes steam cleanse, exfoliation, extractions, antibacterial mask, and soothing hydration. Optional add-ons: Morpheus8 RF Microneedling (+$50), Enzyme Peel, or Microdermabrasion for advanced resurfacing and acne control.'
-      },
-      {
-        name: 'Signature Back Refresh',
-        price: 120,
-        description:
-          'A rejuvenating back facial designed for smoother, hydrated, and radiant skin. Includes deep cleansing, exfoliation, mask therapy, and nourishing moisture finish. Optional add-ons: Enzyme Peel or Microdermabrasion to boost glow and refine texture.'
-      }
-    ]
-  },
-
-  {
     id: 'led-facial',
     name: 'LED Light Therapy Facial',
     price: 100,
@@ -312,23 +353,6 @@ export const services: Service[] = [
       'Stimulates collagen and elasticity',
       'Promotes acne healing and prevention',
       'Provides anti-aging and skin rejuvenation benefits'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
-  },
-  {
-    id: 'oxygen-facial',
-    name: 'Oxygen Facial',
-    price: 104,
-    originalPrice: 130,
-    duration: 60,
-    description: 'A revitalizing treatment that infuses oxygen and nutrient-rich serums deep into the skin. It delivers instant hydration, boosts circulation, and supports collagen production, leaving your complexion refreshed, plump, and glowing.',
-    category: 'facial',
-    benefits: [
-      'Deeply hydrates and plumps the skin',
-      'Brightens and evens skin tone',
-      'Promotes collagen and elastin for rejuvenation',
-      'Detoxifies by killing bacteria and reducing redness',
-      'Clears and refines pores to reduce congestion'
     ],
     badges: [{ text: '20% OFF', color: 'red' }]
   },

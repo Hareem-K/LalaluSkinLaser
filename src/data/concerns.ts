@@ -17,7 +17,7 @@ export const concerns: Concern[] = [
       'You may know you have acne if you regularly notice inflamed red bumps, clogged pores, or persistent blemishes that leave marks behind. Many people also experience increased oiliness, tenderness, or scarring in areas prone to breakouts such as the face, chest, or back.',
       'Effective treatments for acne focus on clearing congestion, calming inflammation, and supporting skin healing. Professional treatments help reduce bacteria, minimize pore blockages, and improve skin texture over time.'
     ],
-    recommendedServiceIds: ['hydrafacial', 'microneedling', 'chemical-peels', 'acne-treatment', 'customized-back-facial', 'led-facial'],
+    recommendedServiceIds: ['hydrafacial', 'microneedling', 'chemical-peels', 'c2o2-oxygen-facial' ,'acne-treatment', 'customized-back-facial' ],
     image: '/skinconcerns/acne.png'
   },
   {
