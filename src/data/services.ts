@@ -151,23 +151,6 @@ export const services: Service[] = [
     ]
   },
   {
-    id: 'bb-glow',
-    name: 'BB Glow',
-    price: 120,
-    originalPrice: 130,
-    duration: 70,
-    description: 'A semi-permanent skin treatment that uses tinted serums and microneedling technology to create a flawless, radiant finish. BB Glow helps even skin tone, minimize imperfections, and improve texture while delivering anti-aging benefits for a naturally glowing complexion that lasts.',
-    category: 'treatment',
-    benefits: [
-      'Provides a radiant, luminous glow',
-      'Evens skin tone and reduces discoloration',
-      'Softens fine lines and offers anti-aging benefits',
-      'Improves overall skin texture',
-      'Reduces acne scars and blemishes',
-      'Helps control excess oil for balanced skin'
-    ]
-  },
-  {
     id: 'c2o2-oxygen-facial',
     name: 'C₂O₂ Oxygen Facial (Circadia Oxygen Rx)',
     price: 150,
@@ -191,22 +174,6 @@ export const services: Service[] = [
       { type: 'image', src: '/Circadia/C2O2/OxygenLiz2.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
       { type: 'image', src: '/Circadia/C2O2/CharcoalSplash.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
     ]
-  },
-  {
-    id: 'acne-treatment',
-    name: 'Acne Treatment Facial',
-    price: 104,
-    originalPrice: 130,
-    duration: 75,
-    description: 'A targeted facial designed for acne-prone and congested skin. This treatment uses deep cleansing, exfoliation, and soothing professional-grade products to reduce breakouts, calm inflammation, and promote clearer, healthier skin over time.',
-    category: 'facial',
-    benefits: [
-      'Reduces active acne and blemishes',
-      'Calms redness and inflammation',
-      'Helps prevent future breakouts',
-      'Unclogs pores for clearer, smoother skin'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
     id: 'customized-back-facial',
@@ -236,23 +203,6 @@ export const services: Service[] = [
           'A rejuvenating back facial designed for smoother, hydrated, and radiant skin. Includes deep cleansing, exfoliation, mask therapy, and nourishing moisture finish. Optional add-ons: Enzyme Peel or Microdermabrasion to boost glow and refine texture.'
       }
     ]
-  },
-  {
-    id: 'oxygen-facial',
-    name: 'Oxygen Facial',
-    price: 104,
-    originalPrice: 130,
-    duration: 60,
-    description: 'A revitalizing treatment that infuses oxygen and nutrient-rich serums deep into the skin. It delivers instant hydration, boosts circulation, and supports collagen production, leaving your complexion refreshed, plump, and glowing.',
-    category: 'facial',
-    benefits: [
-      'Deeply hydrates and plumps the skin',
-      'Brightens and evens skin tone',
-      'Promotes collagen and elastin for rejuvenation',
-      'Detoxifies by killing bacteria and reducing redness',
-      'Clears and refines pores to reduce congestion'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
     id: 'vitamin-c-facial',
@@ -324,23 +274,6 @@ export const services: Service[] = [
     badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
-    id: 'deep-cleansing',
-    name: 'Deep Cleansing Facial',
-    price: 80,
-    originalPrice: 100,
-    duration: 60,
-    description: 'An intensive treatment for congested or oily skin. This facial combines exfoliation, extractions, and a clarifying mask to deeply cleanse pores, balance oil, and leave skin visibly clearer and refreshed.',
-    category: 'facial',
-    benefits: [
-      'Deeply cleanses and purifies pores',
-      'Reduces blackheads and congestion',
-      'Balances excess oil production',
-      'Improves skin clarity and smoothness',
-      'Helps prevent future breakouts'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
-  },
-  {
     id: 'led-facial',
     name: 'LED Light Therapy Facial',
     price: 100,
@@ -357,22 +290,52 @@ export const services: Service[] = [
     badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
-    id: 'gold-facial',
-    name: 'Gold Facial',
-    price: 104,
-    originalPrice: 130,
+    id: 'customized-back-facial',
+    name: 'Customized Back Facial',
+    price: 150,
     duration: 60,
-    description: 'A luxurious 24k gold-infused facial that stimulates collagen and elastin production, improves circulation, and protects against environmental damage. This indulgent treatment helps reduce signs of aging while leaving the skin radiant, firm, and rejuvenated.',
+    description: 'A customized back treatment that deeply cleanses, exfoliates, and hydrates to restore clarity and smoothness. Ideal for treating back acne or simply refreshing the skin. Optional add-ons like Morpheus8 RF microneedling, enzyme peel, or microdermabrasion enhance results.',
     category: 'facial',
     benefits: [
-      'Boosts collagen and improves skin elasticity',
-      'Reduces fine lines and wrinkles',
-      'Enhances radiance and brightens complexion',
-      'Provides antioxidant and anti-inflammatory protection'
+      'Deeply cleanses pores and removes buildup',
+      'Targets congestion and back acne (“bacne”)',
+      'Exfoliates dead skin cells and smooths texture',
+      'Hydrates and nourishes the back for a healthy glow',
+      'Restores comfort and confidence in your skin'
     ],
-    badges: [{ text: '20% OFF', color: 'red' }]
-
+    tiers: [
+      {
+        name: 'Bacne Solution',
+        price: 150,
+        description:
+          'A clarifying back facial focused on reducing acne, congestion, and inflammation. Includes steam cleanse, exfoliation, extractions, antibacterial mask, and soothing hydration. Optional add-ons: Morpheus8 RF Microneedling (+$50), Enzyme Peel, or Microdermabrasion for advanced resurfacing and acne control.'
+      },
+      {
+        name: 'Signature Back Refresh',
+        price: 120,
+        description:
+          'A rejuvenating back facial designed for smoother, hydrated, and radiant skin. Includes deep cleansing, exfoliation, mask therapy, and nourishing moisture finish. Optional add-ons: Enzyme Peel or Microdermabrasion to boost glow and refine texture.'
+      }
+    ]
   },
+  {
+    id: 'bb-glow',
+    name: 'BB Glow',
+    price: 120,
+    originalPrice: 130,
+    duration: 70,
+    description: 'A semi-permanent skin treatment that uses tinted serums and microneedling technology to create a flawless, radiant finish. BB Glow helps even skin tone, minimize imperfections, and improve texture while delivering anti-aging benefits for a naturally glowing complexion that lasts.',
+    category: 'treatment',
+    benefits: [
+      'Provides a radiant, luminous glow',
+      'Evens skin tone and reduces discoloration',
+      'Softens fine lines and offers anti-aging benefits',
+      'Improves overall skin texture',
+      'Reduces acne scars and blemishes',
+      'Helps control excess oil for balanced skin'
+    ]
+  },
+
   {
     id: 'slimming-treatment',
     name: 'Body & Face Slimming Treatment',
