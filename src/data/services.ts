@@ -152,7 +152,7 @@ export const services: Service[] = [
   },
   {
     id: 'c2o2-oxygen-facial',
-    name: 'C₂O₂ Oxygen Facial (Circadia Oxygen Rx)',
+    name: 'C₂O₂ Oxygen Facial (Circadia Oxygen Rx for Acne)',
     price: 150,
     duration: 90,
     description:
@@ -173,35 +173,6 @@ export const services: Service[] = [
       { type: 'image', src: '/Circadia/C2O2/CharcoalDieu2.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
       { type: 'image', src: '/Circadia/C2O2/OxygenLiz2.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
       { type: 'image', src: '/Circadia/C2O2/CharcoalSplash.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
-    ]
-  },
-  {
-    id: 'customized-back-facial',
-    name: 'Customized Back Facial',
-    price: 150,
-    duration: 60,
-    description: 'A customized back treatment that deeply cleanses, exfoliates, and hydrates to restore clarity and smoothness. Ideal for treating back acne or simply refreshing the skin. Optional add-ons like Morpheus8 RF microneedling, enzyme peel, or microdermabrasion enhance results.',
-    category: 'facial',
-    benefits: [
-      'Deeply cleanses pores and removes buildup',
-      'Targets congestion and back acne (“bacne”)',
-      'Exfoliates dead skin cells and smooths texture',
-      'Hydrates and nourishes the back for a healthy glow',
-      'Restores comfort and confidence in your skin'
-    ],
-    tiers: [
-      {
-        name: 'Bacne Solution',
-        price: 150,
-        description:
-          'A clarifying back facial focused on reducing acne, congestion, and inflammation. Includes steam cleanse, exfoliation, extractions, antibacterial mask, and soothing hydration. Optional add-ons: Morpheus8 RF Microneedling (+$50), Enzyme Peel, or Microdermabrasion for advanced resurfacing and acne control.'
-      },
-      {
-        name: 'Signature Back Refresh',
-        price: 120,
-        description:
-          'A rejuvenating back facial designed for smoother, hydrated, and radiant skin. Includes deep cleansing, exfoliation, mask therapy, and nourishing moisture finish. Optional add-ons: Enzyme Peel or Microdermabrasion to boost glow and refine texture.'
-      }
     ]
   },
   {
