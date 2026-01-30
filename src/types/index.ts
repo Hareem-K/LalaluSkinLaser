@@ -25,6 +25,11 @@ export interface Service {
   benefits: string[];
   tiers?: ServiceTier[];
   badges?: Badge[];
+  media?: {
+    type: 'image' | 'video';
+    src: string;
+    alt?: string;
+  }[];
 }
 
 export interface Appointment {
