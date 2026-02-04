@@ -152,7 +152,7 @@ export const services: Service[] = [
   },
   {
     id: 'c2o2-oxygen-facial',
-    name: 'C₂O₂ Oxygen Facial (Circadia Oxygen Rx for Acne)',
+    name: 'C₂O₂ Acne Facial',
     price: 150,
     duration: 90,
     description:
