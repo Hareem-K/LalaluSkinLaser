@@ -168,6 +168,7 @@ export const services: Service[] = [
       'Safe for reactive and rosacea-prone skin',
     ],
     media: [
+      { type: 'video', src: '/Circadia/C2O2/C202-Overview.mp4' },
       { type: 'video', src: '/Circadia/C2O2/Step-4-oxygen.mp4' },
       { type: 'video', src: '/Circadia/C2O2/Step-3-Charcoal-Mask.mp4' },
       { type: 'image', src: '/Circadia/C2O2/CharcoalDieu2.jpg', alt: 'Circadia Oxygen Rx treatment in progress' },
