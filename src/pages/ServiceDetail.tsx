@@ -360,8 +360,11 @@ const ServiceDetail: React.FC = () => {
 
           {/* ===================== SERVICE CARD ===================== */}
           <Card className="p-8">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 items-start">
-
+            <div
+              className={`grid gap-10 items-start ${
+                media.length > 0 ? 'grid-cols-1 lg:grid-cols-2' : 'grid-cols-1'
+              }`}
+            >
               {/* ---------- LEFT: TEXT ---------- */}
               <div>
                 <h1 className="text-3xl font-bold text-gray-900 mb-2">
