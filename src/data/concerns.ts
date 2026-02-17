@@ -61,7 +61,7 @@ export const concerns: Concern[] = [
       'You may know you’re experiencing aging-related concerns if you notice deepening expression lines, loss of elasticity around the cheeks or jawline, thinner skin, or a general lack of plumpness compared to your younger years. Makeup may also settle more into creases and folds.',
       'Treatments for aging skin focus on stimulating collagen, tightening and firming tissue, and providing intensive hydration. Professional therapies support long-term skin health while delivering a smoother, lifted, and more youthful appearance.'
     ],
-    recommendedServiceIds: ['microneedling', 'led-facial', 'hydrafacial', 'oxygen-facial'],
+    recommendedServiceIds: ['microneedling', 'firming-peptide','led-facial', 'hydrafacial', 'oxygen-facial'],
     image: '/skinconcerns/aging.png'
   },
   {

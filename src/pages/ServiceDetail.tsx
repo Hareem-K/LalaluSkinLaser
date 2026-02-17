@@ -176,6 +176,15 @@ const aftercareById: Record<string, Aftercare> = {
       'Active skin infections, including cold sores (herpes simplex) or bacterial/fungal infections.',
     ],
   },
+  'firming-peptide': [
+    'Mild redness or tightness may occur and typically subsides within a few hours.',
+    'Avoid heavy makeup for 12–24 hours to allow the skin to fully absorb active ingredients.',
+    'Avoid excessive heat (saunas, steam rooms, hot showers) for 24 hours.',
+    'Do not use exfoliating acids, retinol, or active treatments for 3–5 days.',
+    'Keep skin well hydrated and use a gentle cleanser.',
+    'Apply broad-spectrum SPF 30+ daily to protect your refreshed skin.',
+    'Stay well hydrated to support optimal results.'
+  ],
   'acne-treatment': [
     'Avoid heavy makeup for 12-24 hours to let your skin breathe.',
     'Avoid hot showers, saunas, or steam rooms for 24 hours.',
