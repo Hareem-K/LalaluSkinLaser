@@ -73,8 +73,8 @@ export const services: Service[] = [
       'Restores a radiant, dewy glow'
     ],
     tiers: [
-      { name: 'Regular', originalPrice: 150, price: 100, description: 'A refreshing, results-driven treatment that deeply cleanses, exfoliates, extracts, and hydrates the skin for an instant, healthy glow. Perfect for maintaining clear, balanced, and radiant skin with no downtime.' },
-      { name: 'Signature', price: 160, description: 'Our Signature HydraFacial elevates the classic treatment into a comprehensive, five-step experience. In addition to deep cleansing, exfoliation, and hydration, this treatment includes dermaplaning, microdermabrasion, red light therapy, and a collagen lip mask for enhanced smoothness, glow, and overall radiance. Perfect before events or anytime you want visibly polished, luminous skin.' },
+      { name: 'Regular', price: 80, description: 'A refreshing, results-driven treatment that deeply cleanses, exfoliates, extracts, and hydrates the skin for an instant, healthy glow. Perfect for maintaining clear, balanced, and radiant skin with no downtime.' },
+      { name: 'Signature', price: 120, description: 'Our Signature HydraFacial elevates the classic treatment into a comprehensive, five-step experience. In addition to deep cleansing, exfoliation, and hydration, this treatment includes dermaplaning, microdermabrasion, red light therapy, and a collagen lip mask for enhanced smoothness, glow, and overall radiance. Perfect before events or anytime you want visibly polished, luminous skin.' },
     ]
   },
   {
