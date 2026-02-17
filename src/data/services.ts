@@ -176,6 +176,23 @@ export const services: Service[] = [
     ]
   },
   {
+    id: 'firming-peptide',
+    name: 'Firming Peptide Treatment',
+    price: 120, // adjust if needed
+    originalPrice: 180,
+    duration: 60,
+    description: 'An intensive anti-aging facial designed to visibly firm, tighten, and refresh the skin. Powered by advanced peptides, antioxidants, and plant-based actives, this treatment helps stimulate collagen support, smooth fine lines, and restore a youthful glow — with results you can see immediately.',
+    category: 'treatment',
+    benefits: [
+      'Instant visible firming and tightening',
+      'Softens the appearance of fine lines',
+      'Supports collagen and elastin production',
+      'Boosts skin hydration',
+      'Improves overall skin texture',
+      'Enhances skin vitality and glow'
+    ]
+  },
+  {
     id: 'vitamin-c-facial',
     name: 'Vitamin C Facial',
     price: 100,
