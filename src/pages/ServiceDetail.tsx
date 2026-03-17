@@ -133,6 +133,13 @@ const aftercareById: Record<string, Aftercare> = {
     'Always apply broad-spectrum SPF 30+ daily, even on cloudy days.',
     'Stay hydrated to maintain that fresh glow!'
   ],
+  'personalized-skin-treatment': [
+    'Avoid heavy makeup for 12–24 hours.',
+    'Use gentle skincare products for the next few days.',
+    'Avoid active ingredients (retinol, acids) for 3–5 days depending on treatment.',
+    'Apply SPF daily to protect your skin.',
+    'Follow personalized aftercare recommendations provided during your appointment.'
+  ],
   'classic-facial': [
     'Avoid heavy makeup for 12 hours to let your skin breathe.',
     'Avoid hot showers, saunas, or steam rooms for 24 hours.',
