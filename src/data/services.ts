@@ -210,6 +210,21 @@ export const services: Service[] = [
       badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
+    id: 'personalized-skin-treatment',
+    name: 'Signature Personalized Skin Treatment',
+    category: 'facial',
+    duration: 90,
+    price: '100-200' as unknown as number,
+    description: 'An advanced, fully personalized skin treatment designed around your skin’s unique needs, concerns, and lifestyle. Each step is customized in real time using professional-grade products and techniques to safely and effectively support your skin — whether you are dealing with sensitivity, acne, pigmentation, or medically-influenced skin.',
+    benefits: [
+      'Fully customized treatment tailored to your skin',
+      'Safe approach for sensitive or medically-influenced skin',
+      'Targets multiple concerns in one session',
+      'Includes in-depth skin assessment and consultation',
+      'Supports long-term skin health and barrier repair'
+    ]
+  },
+  {
     id: 'skin-brightening',
     name: 'Skin Brightening Facial',
     price: 104,
