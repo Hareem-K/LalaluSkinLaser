@@ -23,7 +23,7 @@ export const services: Service[] = [
         name: 'Microneedling',
         price: 150,
         description:
-          'A collagen-stimulating treatment that refines texture, minimizes pores, and enhances overall skin clarity. Using fine microchannels, it encourages the skin’s natural repair process to improve tone, firmness, and radiance. Optional neck add-on to target crepiness and early signs of sagging.'
+          'A collagen-stimulating treatment that refines texture, minimizes pores, and enhances overall skin clarity and smoothness. Using fine microchannels, it encourages the skin’s natural repair process to improve tone, firmness, and radiance. Performed using the Dr. Pen A20, a professional-grade microneedling device approved by the FDA and Health Canada. Optional neck add-on to target crepiness and early signs of sagging.'
       },
       {
         name: 'Morpheus8 Microneedling with RF',
