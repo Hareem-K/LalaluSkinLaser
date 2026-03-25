@@ -2,7 +2,7 @@
 export type BlogBlock =
   | { type: 'heading'; level?: 2 | 3; text: string }
   | { type: 'paragraph'; text: string }
-  | { type: 'image'; src: string; alt: string; caption?: string; aspect?: 'landscape' | 'square' | 'portrait' }
+  | { type: 'image'; src: string; alt: string; caption?: string; aspect?: 'landscape' | 'square' | 'portrait'; size?: 'small' | 'medium' | 'large' }
   | { type: 'quote'; text: string }
   | { type: 'list'; items: string[] }
   | { type: 'instagram'; url: string; title?: string } // paste the IG post/reel URL
@@ -255,7 +255,152 @@ export const blogPosts: BlogPost[] = [
       { type: 'paragraph', text: 'Retinol is one of the most powerful anti-aging and skin-smoothing ingredients available — but the key to success is patience and proper technique. When used correctly, retinol supports long-term skin health, refined texture, and radiant glow without compromising your barrier.' },
       { type: 'paragraph', text: 'Start slow, nourish your skin, protect it during the day, and let retinol work with your skin — not against it.' }
     ]
+  },
+  {
+    id: 'microneedling-vs-morpheus8',
+    slug: 'microneedling-vs-morpheus8-rf',
+    title: 'Microneedling vs Morpheus8 RF Microneedling: What’s the Difference?',
+    excerpt:
+      'Not sure whether to choose microneedling or Morpheus8? Here’s a simple breakdown of how they work, who they’re best for, and what results you can expect.',
+    tags: ['microneedling', 'morpheus8', 'acne', 'anti-aging'],
+    createdAt: '2026-03-22',
+    readingMinutes: 8,
+    blocks: [
+
+      { type: 'paragraph', text: 'If you’ve been researching skin treatments, you’ve likely come across both microneedling and Morpheus8 RF microneedling. While they may sound similar, they actually work at different depths and are designed for different types of skin concerns.' },
+
+      { type: 'paragraph', text: 'At Lalalu Skin & Laser, we offer both treatments, and one of the most common questions we get is: “Which one is better?” The truth is—it depends on your skin. This guide will help you understand the difference so you can choose the right treatment with confidence.' },
+      
+      {
+        type: 'paragraph',
+        text: 'We perform both treatments regularly at Lalalu Skin & Laser, and this guide is based on real client results and consultations.'
+      },
+
+      { type: 'heading', level: 2, text: 'What is Microneedling?' },
+      { type: 'image', src: '/blog/microneedling.png', alt: 'microneedling treatment', aspect: 'landscape', size: 'medium' },
+
+      { type: 'paragraph', text: 'Microneedling is a collagen-stimulating treatment that uses very fine needles to create tiny, controlled micro-injuries in the skin. These micro-injuries trigger your body’s natural healing response, which increases collagen and elastin production over time.' },
+
+      { type: 'paragraph', text: 'This process helps improve overall skin quality—making it smoother, more even, and more radiant. It’s a great option for people who want visible results without overly aggressive treatments.' },
+
+      { type: 'paragraph', text: 'At Lalalu, we use professional-grade devices like the Dr. Pen A20, which allow us to control needle depth precisely and treat different areas of the face safely and effectively.' },
+
+      { type: 'heading', level: 3, text: 'What it helps with:' },
+      { type: 'list', items: [
+        'Mild to moderate acne scars',
+        'Uneven skin texture',
+        'Enlarged pores',
+        'Dull or tired-looking skin',
+        'Early signs of aging'
+      ]},
+
+      { type: 'heading', level: 2, text: 'At-Home vs Professional Microneedling (Important Difference)' },
+
+      { type: 'paragraph', text: 'This is where a lot of confusion comes in. While you may see microneedling devices sold online, not all of them are the same and they are not designed for the same purpose.' },
+
+      { type: 'paragraph', text: 'Many at-home microneedling tools are limited to very shallow depths, meaning they mainly support product absorption and light exfoliation. They do not reach the deeper layers of the skin needed to stimulate significant collagen production or correct more advanced concerns.' },
+
+      { type: 'paragraph', text: 'However, professional devices like the Dr. Pen A20 are medical-grade tools used by trained providers. These devices can safely reach deeper layers of the skin, which is necessary to actually stimulate collagen and treat concerns like acne scars and texture.' },
+
+      { type: 'list', items: [
+        'At-home microneedling: superficial, limited results, mainly for maintenance',
+        'Professional microneedling: deeper, controlled, and designed for real skin correction',
+        'Professional treatments are customized based on your skin type and concern'
+      ]},
+
+      { type: 'quote', text: 'At-home microneedling can help maintain your skin—but professional microneedling is what actually transforms it.' },
+
+      { type: 'heading', level: 2, text: 'What is Morpheus8 RF Microneedling?' },
+      { type: 'image', src: '/blog/morpheus8.JPG', alt: 'morpheus8 treatment', aspect: 'landscape', size: 'small' },
+
+      { type: 'paragraph', text: 'Morpheus8 takes traditional microneedling a step further by combining it with radiofrequency (RF) energy. This means that while the needles penetrate the skin, heat energy is delivered deep into the tissue at the same time.' },
+
+      { type: 'paragraph', text: 'This added heat stimulates a much stronger collagen response and also tightens the skin from within. Because of this, Morpheus8 can treat deeper concerns that regular microneedling alone cannot fully address.' },
+
+      { type: 'paragraph', text: 'Because it works at deeper layers of the skin, Morpheus8 is often used for more advanced concerns and can deliver both resurfacing and tightening in a way that traditional microneedling cannot.' },
+
+      { type: 'heading', level: 3, text: 'What it helps with:' },
+      { type: 'list', items: [
+        'Deep acne scarring',
+        'Loose or sagging skin',
+        'Fine lines and wrinkles',
+        'Jawline definition and contouring',
+        'Stretch marks and deeper texture concerns'
+      ]},
+
+      { type: 'instagram', url: 'https://www.instagram.com/p/DTT1hw9gV_l/', title: 'Morpheus8 Up Close' },
+
+      { type: 'heading', level: 2, text: 'Key Differences (Simple Breakdown)' },
+
+      { type: 'paragraph', text: 'The easiest way to understand the difference is to think about how deep each treatment works and what it’s designed to do.' },
+
+      { type: 'list', items: [
+        'Microneedling focuses on improving skin texture and surface-level concerns',
+        'Morpheus8 works deeper to tighten, lift, and remodel the skin',
+        'Microneedling is great for beginners or maintenance',
+        'Morpheus8 is ideal for more advanced concerns and stronger results'
+      ]},
+
+      { type: 'heading', level: 2, text: 'Which One Should You Choose?' },
+
+      { type: 'heading', level: 3, text: 'Choose Microneedling if you:' },
+      { type: 'list', items: [
+        'Have mild acne scars or uneven texture',
+        'Want smoother, brighter skin',
+        'Are new to treatments and want something less intense',
+        'Prefer minimal downtime'
+      ]},
+
+      { type: 'paragraph', text: 'Microneedling is perfect if your goal is to improve overall skin quality and maintain a healthy glow without going too aggressive.' },
+
+      { type: 'heading', level: 3, text: 'Choose Morpheus8 if you:' },
+      { type: 'list', items: [
+        'Have deeper acne scars or more noticeable texture',
+        'Are experiencing skin laxity or sagging',
+        'Want tightening and contouring effects',
+        'Are looking for more dramatic, long-term results'
+      ]},
+
+      { type: 'paragraph', text: 'Morpheus8 is ideal if you’re ready to target deeper concerns and want both resurfacing and lifting in one treatment.' },
+
+      { type: 'heading', level: 2, text: 'What About Downtime?' },
+
+      { type: 'paragraph', text: 'Downtime is another key difference between the two treatments, and it’s important to choose based on your schedule and comfort level.' },
+
+      { type: 'list', items: [
+        'Microneedling: mild redness for 1–3 days, similar to a light sunburn',
+        'Morpheus8: 3–5 days of redness, possible swelling, and slightly more sensitivity'
+      ]},
+
+      { type: 'paragraph', text: 'Both treatments are very manageable, but Morpheus8 is a bit more intensive due to the added RF energy.' },
+
+      {
+        type: 'heading',
+        level: 2,
+        text: 'When Will You See Results?'
+      },
+      {
+        type: 'list',
+        items: [
+          'Microneedling: visible glow within a few days, with collagen improvements over 3–4 weeks',
+          'Morpheus8: initial tightening within days, with full results developing over 4–8 weeks',
+          'Both treatments improve with multiple sessions and long-term collagen production'
+        ]
+      },
+
+      { type: 'heading', level: 2, text: 'Final Thoughts' },
+
+      { type: 'paragraph', text: 'Microneedling and Morpheus8 are both powerful treatments—but they are designed for different levels of skin concerns. One isn’t necessarily “better” than the other—it’s about choosing what your skin actually needs.' },
+
+      { type: 'paragraph', text: 'If you are searching for microneedling or Morpheus8 in Calgary, understanding the difference can help you choose the right treatment for your skin.' },
+
+      { type: 'paragraph', text: 'If you’re unsure, the best next step is a personalized consultation. We’ll assess your skin, talk through your goals, and recommend the treatment that will give you the best results.' },
+
+      { type: 'paragraph', text: 'Book your consultation today and start your journey to smoother, healthier, more confident skin.' }
+
+    ]
   }
+  
 
 
 ];

@@ -20,9 +20,15 @@ const PostRenderer: React.FC<{ blocks: BlogBlock[] }> = ({ blocks }) => {
             return b.level === 3 ? <H3 key={i}>{b.text}</H3> : <H2 key={i}>{b.text}</H2>;
           case 'paragraph':
             return <p key={i} className="text-gray-700 leading-8">{b.text}</p>;
-          case 'image':
+          case 'image': {
+            const sizeClasses = {
+              small: 'max-w-md mx-auto',
+              medium: 'max-w-2xl mx-auto',
+              large: 'w-full'
+            };
+
             return (
-              <figure key={i} className="my-8">
+              <figure key={i} className={`my-8 ${sizeClasses[b.size || 'large']}`}>
                 <Card className="overflow-hidden">
                   <img
                     src={b.src}
@@ -31,13 +37,16 @@ const PostRenderer: React.FC<{ blocks: BlogBlock[] }> = ({ blocks }) => {
                   />
                 </Card>
                 {b.caption && (
-                  <figcaption className="text-sm text-gray-500 mt-2">{b.caption}</figcaption>
+                  <figcaption className="text-sm text-gray-500 mt-2 text-center">
+                    {b.caption}
+                  </figcaption>
                 )}
               </figure>
             );
+          }
           case 'quote':
             return (
-              <blockquote key={i} className="border-l-4 border-purple-600 pl-4 italic text-gray-800 my-6">
+              <blockquote key={i} className="border-l-4 border-[#6a4c69] pl-4 italic text-gray-800 my-6">
                 {b.text}
               </blockquote>
             );

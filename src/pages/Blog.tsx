@@ -110,7 +110,7 @@ const Blog: React.FC = () => {
               <div className="h-1 w-full rounded bg-gradient-to-r from-[#6a4c69] via-[#b085b9] to-[#e4d2ec] mb-4" />
               <h3 className="text-lg font-semibold text-[#6a4c69] mb-3">All Posts</h3>
 
-              <div className="space-y-2">
+              <div className="space-y-2 max-h-[260px] overflow-y-auto pr-2 md:max-h-none md:overflow-visible">
                 {posts.map(p => (
                   <Link
                     key={p.id}
