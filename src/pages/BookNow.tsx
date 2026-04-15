@@ -13,7 +13,7 @@ const BookNow: React.FC = () => {
         <title>Book an Appointment | Lalalu Skin & Laser</title>
         <meta
           name="description"
-          content="Book your facial, HydraFacial, microneedling, or laser treatment online. Choose a time that works for you."
+          content="Book your treatment, Hydro Glow Facial, microneedling, or and more online. Choose a time that works for you."
         />
         <link rel="canonical" href="https://lalaluskinlaser.com/book" />
         <meta name="robots" content="index,follow" />

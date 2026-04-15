@@ -1,58 +1,56 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lalalu Skin & Laser</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      background-color: #FAFAF8;
-      color: #0F172A;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
+    <title>Lalalu Skin & Laser – Relax, Rejuvenate, Renew</title>
+    <meta name="description" content="Professional skin care and laser treatments in Calgary. Book facials, microneedling, Hydro Glow Facials, and more at Lalalu Skin & Laser." />
+    <link rel="canonical" href="https://lalaluskinlaser.com/" />
 
-    .container {
-      max-width: 500px;
-      padding: 20px;
-    }
+    <link rel="icon" href="/favicon.ico?v=2" sizes="any">
+    <!-- optional (nice to have) -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png"> <!-- 180×180 -->
 
-    h1 {
-      font-size: 32px;
-      margin-bottom: 10px;
-    }
 
-    p {
-      font-size: 16px;
-      color: #4A6FA5;
-      margin-bottom: 20px;
-    }
+    <!-- Open Graph defaults -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Lalalu Skin & Laser – Relax, Rejuvenate, Renew" />
+    <meta property="og:description" content="Professional skin care and laser treatments in Calgary. Book facials, microneedling, Hydro Glow Facials, and more at Lalalu Skin & Laser." />
+    <meta property="og:url" content="https://lalaluskinlaser.com/" />
+    <meta property="og:image" content="https://lalaluskinlaser.com/og-image.jpg" />
+    <meta property="og:site_name" content="Lalalu Skin & Laser" />
 
-    .dots::after {
-      content: "...";
-      animation: dots 1.5s infinite;
-    }
+    <!-- Helpful extras -->
+    <meta name="theme-color" content="#ffffff">
+    <meta name="robots" content="index,follow" />
 
-    @keyframes dots {
-      0% { content: "."; }
-      33% { content: ".."; }
-      66% { content: "..."; }
-    }
-  </style>
-</head>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Lalalu Skin & Laser",
+        "url": "https://lalaluskinlaser.com",
+        "logo": "https://lalaluskinlaser.com/logo.png",
+        "sameAs": [
+          "https://www.instagram.com/lalaluskinlaser"
+        ]
+      }
+    </script>
 
-<body>
-  <div class="container">
-    <img src="/lalalulogo.png" alt="Lalalu Logo" width="250" />
-    <h1>Lalalu Skin & Laser</h1>
-    <p>Our website is currently under maintenance<span class="dots"></span></p>
-    <p>We’ll be back soon 💫</p>
-  </div>
-</body>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "url": "https://lalaluskinlaser.com",
+        "name": "Lalalu Skin & Laser"
+      }
+    </script>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

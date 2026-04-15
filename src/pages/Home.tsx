@@ -100,13 +100,13 @@ const Home: React.FC = () => {
 
   const testimonials = [
     {
-      name: 'Renata J.',
-      text: 'I had a wonderful experience at Lalalu Skin & Laser for my Morpheus8 RF Microneedling treatment. Asia was extremely knowledgeable and made me feel comfortable throughout the entire appointment. She explained every step clearly and even offered helpful advice for my hair concerns. I really appreciated the extra massage she provided, such a thoughtful touch that made the experience even better. The salon is beautiful and clean, and I loved that there was easy, convenient parking available, which made the visit stress-free. I will definitely be coming back, and I highly recommend Asia to my friends!',
+      name: 'R.',
+      text: 'I had a wonderful experience at Lalalu Skin & Laser for my RF Microneedling treatment. Asia was extremely knowledgeable and made me feel comfortable throughout the entire appointment. She explained every step clearly and even offered helpful advice for my hair concerns. I really appreciated the extra massage she provided, such a thoughtful touch that made the experience even better. The salon is beautiful and clean, and I loved that there was easy, convenient parking available, which made the visit stress-free. I will definitely be coming back, and I highly recommend Asia to my friends!',
       rating: 5
     },
     {
-      name: 'Mariya Z.',
-      text: 'I had an absolutely exceptional HydraFacial experience! From start to finish, the expert was not only incredibly skilled but also took the time to explain each step of the process in detail. Every product used was introduced with a clear explanation of its purpose and benefits, which made me feel both informed and confident in the treatment. What really stood out was the depth of knowledge shared about skin health — I learned so much about my own skin type, common issues, and practical ways to improve it. It felt more like a personalized skin consultation than just a facial, and I left feeling refreshed, educated, and glowing! Highly recommend if youre looking for results, professionalism, and a truly knowledgeable skincare expert. Will definitely be returning!',
+      name: 'E.',
+      text: 'I had an amazing experience with lalalu skin and laser, the spa was very clean, professional, and relaxing. I had the C2O2 oxygen facial, and i left feeling very refreshed and rejuvenated. She made sure that I was comfortable throughout the facial, and explained the process and products to me which I really appreciated! I definitely recommend her services and can’t wait to return',
       rating: 5
     },
     {
@@ -123,7 +123,7 @@ const Home: React.FC = () => {
         <title>Lalalu Skin & Laser – Relax, Rejuvenate, Renew</title>
         <meta
           name="description"
-          content="HydraFacials, microneedling (RF), laser skin treatments, and premium facials in Calgary. Book online at Lalalu Skin & Laser."
+          content="Hydro Glow Facials, microneedling (RF), laser skin treatments, and premium facials in Calgary. Book online at Lalalu Skin & Laser."
         />
         <link rel="canonical" href="https://lalaluskinlaser.com/" />
         <meta name="robots" content="index,follow" />
@@ -133,7 +133,7 @@ const Home: React.FC = () => {
         <meta property="og:site_name" content="Lalalu Skin & Laser" />
         <meta property="og:locale" content="en_CA" />
         <meta property="og:title" content="Lalalu Skin & Laser – Relax, Rejuvenate, Renew" />
-        <meta property="og:description" content="HydraFacials, microneedling (RF), laser skin treatments, and premium facials in Calgary. Book online at Lalalu Skin & Laser." />
+        <meta property="og:description" content="Hydro Glow Facials, microneedling (RF), laser skin treatments, and premium facials in Calgary. Book online at Lalalu Skin & Laser." />
         <meta property="og:url" content="https://lalaluskinlaser.com/" />
         <meta property="og:image" content="https://lalaluskinlaser.com/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
@@ -224,7 +224,7 @@ const Home: React.FC = () => {
               </Card> */}
               <Card className="bg-white/10 backdrop-blur-sm border border-white/20 text-white p-6 text-center">
                 <h3 className="text-xl font-bold mb-2">Special</h3>
-                <p className="mb-4">HydraFacial + Microneedling</p>
+                <p className="mb-4">Hydro Glow Facial + Microneedling</p>
                 <div className="text-2xl font-bold">$150</div>
                 <p className="mt-2 text-sm opacity-90"><a href="/book" className="underline">Book Now</a></p>
               </Card>
@@ -301,7 +301,7 @@ const Home: React.FC = () => {
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Morpheus8 RF Microneedling</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">RF Microneedling</h3>
                     <p className="text-gray-600 mb-4">Tighten skin and smooth texture with RF-powered microneedling.</p>
                     <div className="flex justify-between items-center">
                       <Link to="/book">
@@ -331,11 +331,11 @@ const Home: React.FC = () => {
                 <Card hover className="overflow-hidden">
                   <img 
                     src="/Circadia/mask-2.jpg" 
-                    alt="Hydrafacial" 
+                    alt="HydroGlowfacial" 
                     className="w-full h-48 object-cover"
                   />
                   <div className="p-6">
-                    <h3 className="text-xl font-semibold text-gray-900 mb-2">HydraFacial</h3>
+                    <h3 className="text-xl font-semibold text-gray-900 mb-2">Hydro Glow Facial</h3>
                     <p className="text-gray-600 mb-4">Deeply cleanses, exfoliate, and hydrates in one gentle treatment.</p>
                     <div className="flex justify-between items-center">
                       <Link to="/book">

@@ -82,7 +82,7 @@ const NewYearPromoModal: React.FC = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mb-6">
                 <div className="offer-card">
-                  <p className="offer-title">Cocoa Enzyme + HydraFacial</p>
+                  <p className="offer-title">Cocoa Enzyme + Hydro Glow Facial</p>
                   <p className="offer-price">$80</p>
                   <p className="offer-desc">
                     Deeply exfoliates, hydrates & boosts radiance for an instant glow
@@ -98,7 +98,7 @@ const NewYearPromoModal: React.FC = () => {
                 </div>
 
                 <div className="offer-card">
-                  <p className="offer-title">Morpheus8 + PDRN + Jelly Mask</p>
+                  <p className="offer-title">RF Microneedling + PDRN + Jelly Mask</p>
                   <p className="offer-price">$200</p>
                   <p className="offer-desc">
                     Advanced RF microneedling for firming, texture & collagen repair

@@ -74,7 +74,7 @@ const Services: React.FC = () => {
         <title>Services & Pricing | Lalalu Skin & Laser</title>
         <meta
           name="description"
-          content="Explore facials, HydraFacials, RF microneedling, BB Glow, and advanced laser treatments. Transparent pricing and easy online booking."
+          content="Explore facials, Hydro Glow Facials, RF microneedling, BB Glow, and advanced laser treatments. Transparent pricing and easy online booking."
         />
         <link rel="canonical" href="https://lalaluskinlaser.com/services" />
         <meta name="robots" content="index,follow" />
@@ -84,7 +84,7 @@ const Services: React.FC = () => {
         <meta property="og:site_name" content="Lalalu Skin & Laser" />
         <meta property="og:locale" content="en_CA" />
         <meta property="og:title" content="Services & Pricing | Lalalu Skin & Laser" />
-        <meta property="og:description" content="Facials, HydraFacials, RF microneedling, BB Glow, and laser. Transparent pricing." />
+        <meta property="og:description" content="Facials, Hydro Glow Facials, RF microneedling, BB Glow, and laser. Transparent pricing." />
         <meta property="og:url" content="https://lalaluskinlaser.com/services" />
         <meta property="og:image" content="https://lalaluskinlaser.com/og-image.jpg" />
         <meta property="og:image:width" content="1200" />
@@ -176,7 +176,7 @@ const Services: React.FC = () => {
               <div>
                 <p className="font-semibold">💫 Special</p>
                 <p className="text-sm opacity-90">
-                  HydraFacial + Microneedling - $150
+                  Hydro Glow Facial + Microneedling - $150
                 </p>
               </div>
               <div>

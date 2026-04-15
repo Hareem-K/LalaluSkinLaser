@@ -121,6 +121,9 @@ const About: React.FC = () => {
                     people can have fun, relax, and achieve their skin goals in a welcoming environment.
                   </p>
                   <p>
+                    We are Alberta Health certified, so every treatment follows provincial safety and quality standards.
+                  </p>
+                  <p>
                     I believe that everyone deserves to feel confident in their own skin. Whether 
                     you're a teenager dealing with acne, someone looking to combat signs of aging, 
                     or simply wanting to maintain healthy, glowing skin, I am here to help.
