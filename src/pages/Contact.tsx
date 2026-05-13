@@ -37,10 +37,10 @@ const Contact: React.FC = () => {
   
     try {
       await emailjs.send(
-        "service_sjg74w8",      // e.g., "service_123abc"
-        "template_i6r469s",     // e.g., "template_456xyz"
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,      // e.g., "service_123abc"
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,     // e.g., "template_456xyz"
         formData,               // your form values: name, email, etc.
-        "jTgMDDl0Gh9lXuOh5"       // e.g., "KjdfNjsn73kd" from EmailJS
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY       // e.g., "KjdfNjsn73kd" from EmailJS
       );
   
       setIsSubmitted(true);
