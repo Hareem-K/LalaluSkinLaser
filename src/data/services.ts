@@ -3,7 +3,7 @@ import { Service } from '../types';
 export const services: Service[] = [
   {
     id: 'microneedling',
-    name: 'Morpheus8 RF Microneedling',
+    name: 'RF Microneedling',
     price: 200,
     originalPrice: 300,
     duration: 90,
@@ -26,13 +26,13 @@ export const services: Service[] = [
           'A collagen-stimulating treatment that refines texture, minimizes pores, and enhances overall skin clarity and smoothness. Using fine microchannels, it encourages the skin’s natural repair process to improve tone, firmness, and radiance. Performed using the Dr. Pen A20, a professional-grade microneedling device approved by the FDA and Health Canada. Optional neck add-on to target crepiness and early signs of sagging.'
       },
       {
-        name: 'Morpheus8 Microneedling with RF',
+        name: 'RF Microneedling',
         price: '250–400' as unknown as number,
         description:
-          'Combining microneedling with radiofrequency energy, Morpheus8 delivers heat deep into the dermis to remodel collagen and tighten skin at a structural level. It effectively targets fine lines, sagging, enlarged pores, and acne scars. Optional neck add-on to firm and lift the delicate neck area for a smoother, more contoured appearance.'
+          'Combining microneedling with radiofrequency energy, RF Microneedling delivers heat deep into the dermis to remodel collagen and tighten skin at a structural level. It effectively targets fine lines, sagging, enlarged pores, and acne scars. Optional neck add-on to firm and lift the delicate neck area for a smoother, more contoured appearance.'
       },
       {
-        name: 'Morpheus8 Microneedling with RF (Body)',
+        name: 'RF Microneedling (Body)',
         price: '150–450' as unknown as number,
         description:
           'A specialized RF microneedling treatment designed to rejuvenate the skin on the body. By delivering fractional radiofrequency energy deep into the tissue, it tightens loose skin, fades stretch marks, and smooths the appearance of surgical or injury-related scars. Ideal for improving tone and firmness on areas such as the abdomen, thighs, arms, and knees.'
@@ -57,11 +57,11 @@ export const services: Service[] = [
     ]
   },
   {
-    id: 'hydrafacial',
-    name: 'HydraFacial',
+    id: 'hydro-glow-facial',
+    name: 'Hydro Glow Facial',
     price: 150,
     duration: 60,
-    description: 'The HydraFacial is a multi-step treatment that deeply cleanses, gently exfoliates, and hydrates the skin using advanced vortex-fusion technology. Customized serums and boosters target your specific concerns—such as fine lines, acne, or hyperpigmentation—leaving your skin instantly smoother, plumper, and glowing with long-lasting protection.',
+    description: 'The Hydro Glow Facial is a multi-step treatment that deeply cleanses, gently exfoliates, and hydrates the skin using advanced vortex-fusion technology. Customized serums and boosters target your specific concerns—such as fine lines, acne, or hyperpigmentation—leaving your skin instantly smoother, plumper, and glowing with long-lasting protection.',
     category: 'facial',
     benefits: [
       'Cleanses, exfoliates, and extracts impurities',
@@ -74,12 +74,12 @@ export const services: Service[] = [
     ],
     tiers: [
       { name: 'Regular', price: 80, description: 'A refreshing, results-driven treatment that deeply cleanses, exfoliates, extracts, and hydrates the skin for an instant, healthy glow. Perfect for maintaining clear, balanced, and radiant skin with no downtime.' },
-      { name: 'Signature', price: 120, description: 'Our Signature HydraFacial elevates the classic treatment into a comprehensive, five-step experience. In addition to deep cleansing, exfoliation, and hydration, this treatment includes dermaplaning, microdermabrasion, red light therapy, and a collagen lip mask for enhanced smoothness, glow, and overall radiance. Perfect before events or anytime you want visibly polished, luminous skin.' },
+      { name: 'Signature', price: 120, description: 'Our Signature Hydro Glow Facial elevates the classic treatment into a comprehensive, five-step experience. In addition to deep cleansing, exfoliation, and hydration, this treatment includes dermaplaning, microdermabrasion, red light therapy, and a collagen lip mask for enhanced smoothness, glow, and overall radiance. Perfect before events or anytime you want visibly polished, luminous skin.' },
     ]
   },
   {
     id: 'diamond-glow',
-    name: 'Diamond Glow Facial',
+    name: 'Diamond Glass Skin Facial',
     price: 100,
     originalPrice: 150,
     duration: 90,
@@ -211,7 +211,7 @@ export const services: Service[] = [
   },
   {
     id: 'personalized-skin-treatment',
-    name: 'Signature Personalized Skin Treatment',
+    name: 'Lalalu Signature Personalized Skin Treatment',
     category: 'facial',
     duration: 90,
     price: '100-200' as unknown as number,
@@ -223,58 +223,6 @@ export const services: Service[] = [
       'Includes in-depth skin assessment and consultation',
       'Supports long-term skin health and barrier repair'
     ]
-  },
-  {
-    id: 'skin-brightening',
-    name: 'Skin Brightening Facial',
-    price: 104,
-    originalPrice: 130,
-    duration: 60,
-    description: 'A targeted facial designed to fade dark spots, reduce hyperpigmentation, and restore balance to uneven skin tone. This treatment uses brightening serums and gentle exfoliation to reveal a clearer, more radiant complexion while promoting long-term skin clarity and glow.',
-    category: 'facial',
-    benefits: [
-      'Reduces hyperpigmentation and dark spots',
-      'Evens skin tone',
-      'Brightens dull complexion',
-      'Improves overall skin clarity',
-      'Enhances natural glow',
-      'Promotes long-term radiance'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
-  },
-  {
-    id: 'classic-facial',
-    name: 'Classic Facial',
-    price: 80,
-    originalPrice: 100,
-    duration: 60,
-    description: 'A relaxing, all-in-one treatment suitable for every skin type. The Classic Facial includes deep cleansing, gentle exfoliation, extractions if needed, and a nourishing mask to refresh and revitalize your skin. It restores balance, promotes relaxation, and leaves you with a healthy, refreshed glow.',
-    category: 'facial',
-    benefits: [
-      'Deeply cleanses and purifies skin',
-      'Removes buildup and unclogs pores',
-      'Restores skin balance and hydration',
-      'Improves overall skin health',
-      'Promotes relaxation and stress relief'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
-  },
-  {
-    id: 'glow-facial',
-    name: 'Glow Facial',
-    price: 104,
-    originalPrice: 130,
-    duration: 60,
-    description: 'A revitalizing facial treatment that deeply hydrates, smooths, and refreshes the skin. The Glow Facial is designed to instantly brighten your complexion, improve texture, and leave you with a healthy, luminous finish.',
-    category: 'facial',
-    benefits: [
-      'Provides instant radiance',
-      'Deeply hydrates and nourishes',
-      'Smooths and refines skin texture',
-      'Enhances natural glow',
-      'Leaves skin refreshed and revitalized'
-    ],
-    badges: [{ text: '20% OFF', color: 'red' }]
   },
   {
     id: 'led-facial',
@@ -297,7 +245,7 @@ export const services: Service[] = [
     name: 'Customized Back Facial',
     price: 150,
     duration: 60,
-    description: 'A customized back treatment that deeply cleanses, exfoliates, and hydrates to restore clarity and smoothness. Ideal for treating back acne or simply refreshing the skin. Optional add-ons like Morpheus8 RF microneedling, enzyme peel, or microdermabrasion enhance results.',
+    description: 'A customized back treatment that deeply cleanses, exfoliates, and hydrates to restore clarity and smoothness. Ideal for treating back acne or simply refreshing the skin. Optional add-ons like RF microneedling, enzyme peel, or microdermabrasion enhance results.',
     category: 'facial',
     benefits: [
       'Deeply cleanses pores and removes buildup',
@@ -311,10 +259,10 @@ export const services: Service[] = [
         name: 'Bacne Solution',
         price: 150,
         description:
-          'A clarifying back facial focused on reducing acne, congestion, and inflammation. Includes steam cleanse, exfoliation, extractions, antibacterial mask, and soothing hydration. Optional add-ons: Morpheus8 RF Microneedling (+$50), Enzyme Peel, or Microdermabrasion for advanced resurfacing and acne control.'
+          'A clarifying back facial focused on reducing acne, congestion, and inflammation. Includes steam cleanse, exfoliation, extractions, antibacterial mask, and soothing hydration. Optional add-ons: RF Microneedling (+$50), Enzyme Peel, or Microdermabrasion for advanced resurfacing and acne control.'
       },
       {
-        name: 'Signature Back Refresh',
+        name: 'Lalalu Signature Back Refresh',
         price: 120,
         description:
           'A rejuvenating back facial designed for smoother, hydrated, and radiant skin. Includes deep cleansing, exfoliation, mask therapy, and nourishing moisture finish. Optional add-ons: Enzyme Peel or Microdermabrasion to boost glow and refine texture.'
@@ -322,26 +270,25 @@ export const services: Service[] = [
     ]
   },
   {
-    id: 'bb-glow',
-    name: 'BB Glow',
-    price: 120,
-    originalPrice: 130,
-    duration: 70,
-    description: 'A semi-permanent skin treatment that uses tinted serums and microneedling technology to create a flawless, radiant finish. BB Glow helps even skin tone, minimize imperfections, and improve texture while delivering anti-aging benefits for a naturally glowing complexion that lasts.',
+    id: 'skin-tag-removal',
+    name: 'Skin Tag and Spot Removal',
+    price: 100, // base or starting price
+    duration: 90,
+    description: 'A safe and effective treatment designed to remove unwanted skin tags with minimal discomfort and downtime. Using precise techniques, each skin tag is carefully targeted while preserving the surrounding skin, leaving you with a smoother, clearer appearance. A consultation is included to assess the area and ensure the treatment is right for you.',
     category: 'treatment',
     benefits: [
-      'Provides a radiant, luminous glow',
-      'Evens skin tone and reduces discoloration',
-      'Softens fine lines and offers anti-aging benefits',
-      'Improves overall skin texture',
-      'Reduces acne scars and blemishes',
-      'Helps control excess oil for balanced skin'
-    ]
+    'Safely removes unwanted skin tags',
+    'Improves skin clarity and smoothness',
+    'Minimally invasive with little to no downtime',
+    'Quick and precise treatment',
+    'Reduces irritation from friction or snagging',
+    'Suitable for face and body areas',
+    'Boosts confidence with clearer-looking skin',
+  ],
   },
-
   {
     id: 'slimming-treatment',
-    name: 'Body & Face Slimming Treatment',
+    name: 'Body & Face Contouring Treatment',
     price: 100, // base or starting price
     duration: 90,
     description: 'A non-invasive treatment that combines ultrasound cavitation, radiofrequency, and vacuum technologies to target stubborn fat, tighten skin, and sculpt both the body and face. By using gentle heat energy, it breaks down fat cells, stimulates collagen production, and improves circulation for smoother, firmer, and more defined results. For best results, a series of 10–12 sessions is required.',

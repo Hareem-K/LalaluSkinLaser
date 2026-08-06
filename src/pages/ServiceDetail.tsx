@@ -46,7 +46,7 @@ type Aftercare =
     };
 
 const aftercareById: Record<string, Aftercare> = {
-  microneedling: [
+  'microneedling': [
     'Expect mild redness & swelling for 1-3 days, possibly light flaking.',
     'Avoid direct sun exposure & heat (saunas, workouts) for at least 48-72 hours.',
     'Do not apply makeup for 24–48 hours.',
@@ -55,14 +55,14 @@ const aftercareById: Record<string, Aftercare> = {
     'Do not pick or peel flaking skin.',
     'Complete healing generally takes 2-3 weeks.'
   ],
-  microdermabrasion: [
+  'microdermabrasion': [
     'Expect slight pinkness; will subside in a few hours.',
     'Avoid makeup for 12-24 hours.',
     'No exfoliation or strong actives for 5-7 days.',
     'Keep skin well-hydrated & use sunscreen daily.',
     'Avoid swimming pools or hot tubs for 48 hours.'
   ],
-  hydrafacial: [
+  'hydro-glow-facial': [
     'Avoid makeup for 12-24 hours.',
     'No exfoliating products (AHAs/BHAs) for 48 hours.',
     'Drink plenty of water to boost results.',

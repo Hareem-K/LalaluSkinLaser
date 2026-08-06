@@ -98,8 +98,8 @@ export const blogPosts: BlogPost[] = [
       { type: 'list', items: [
         'Acne Treatment Facial – reduces active breakouts, calms inflammation, and supports long-term clarity.',
         'Deep Cleansing Facial – intensive decongestion and pore purification for oily or congested skin.',
-        'HydraFacial (Regular/Deluxe/Platinum) – cleanse, extract, and infuse; great for stubborn congestion and post-acne glow.',
-        'Morpheus8 RF Microneedling – best for lingering acne scars and texture irregularities.',
+        'Hydro Glow Facial (Regular/Deluxe/Platinum) – cleanse, extract, and infuse; great for stubborn congestion and post-acne glow.',
+        'RF Microneedling – best for lingering acne scars and texture irregularities.',
         'LED Light Therapy Facial – blue, red, or combination light customized to calm inflammation, reduce acne-causing bacteria, and support healing.',
       ]},
 
@@ -125,8 +125,8 @@ export const blogPosts: BlogPost[] = [
       { type: 'heading', level: 3, text: 'Service Spotlight: Firm, Smooth, Glow' },
       { type: 'paragraph', text: 'So what treatments actually help restore firmness, smoothness, and that radiant glow we all want? Here are some of our most-loved anti-aging and rejuvenation services—each designed to renew collagen, refine texture, and give your skin a youthful bounce.' },
       { type: 'list', items: [
-        'Morpheus8 RF Microneedling – combines microneedling with RF to tighten, firm, and remodel collagen.',
-        'HydraFacial (Platinum: Lip + Eye Boosters) – hydrates and targets delicate areas for a youthful glow.',
+        'RF Microneedling – combines microneedling with RF to tighten, firm, and remodel collagen.',
+        'Hydro Glow Facial (Platinum: Lip + Eye Boosters) – hydrates and targets delicate areas for a youthful glow.',
         'LED Light Therapy Facial – red light to support collagen and post-procedure recovery.',
         'Chemical Peel (Glycolic Acid Peel) – brightens dull tone and smooths early lines.',
         'Gold Facial – 24k gold-infused luxury to enhance radiance and support elasticity.',
@@ -151,7 +151,7 @@ export const blogPosts: BlogPost[] = [
       { type: 'list', items: [
         'Microdermabrasion – gentle diamond-tip exfoliation to smooth texture and lift surface pigment.',
         'Dermaplaning – removes dull skin and peach fuzz to enhance brightness and product absorption.',
-        'HydraFacial (Brightening focus) – cleanse, extract, and infuse for immediate glow.',
+        'Hydro Glow Facial (Brightening focus) – cleanse, extract, and infuse for immediate glow.',
         'Chemical Peel (Glycolic Acid Peel) – resurfaces dullness and helps fade discoloration.',
         'BB Glow – semi-permanent tinted serum to even tone and minimize the look of imperfections.',
         'Skin Brightening Facial – reduces dark spots and restores overall clarity.',
@@ -257,17 +257,17 @@ export const blogPosts: BlogPost[] = [
     ]
   },
   {
-    id: 'microneedling-vs-morpheus8',
-    slug: 'microneedling-vs-morpheus8-rf',
-    title: 'Microneedling vs Morpheus8 RF Microneedling: What’s the Difference?',
+    id: 'microneedling-vs-rfmicroneedling',
+    slug: 'microneedling-vs-rfmicroneedling',
+    title: 'Microneedling vs RF Microneedling: What’s the Difference?',
     excerpt:
-      'Not sure whether to choose microneedling or Morpheus8? Here’s a simple breakdown of how they work, who they’re best for, and what results you can expect.',
-    tags: ['microneedling', 'morpheus8', 'acne', 'anti-aging'],
+      'Not sure whether to choose microneedling or RF microneedling? Here’s a simple breakdown of how they work, who they’re best for, and what results you can expect.',
+    tags: ['microneedling', 'rfmicroneedling', 'acne', 'anti-aging'],
     createdAt: '2026-03-22',
     readingMinutes: 8,
     blocks: [
 
-      { type: 'paragraph', text: 'If you’ve been researching skin treatments, you’ve likely come across both microneedling and Morpheus8 RF microneedling. While they may sound similar, they actually work at different depths and are designed for different types of skin concerns.' },
+      { type: 'paragraph', text: 'If you’ve been researching skin treatments, you’ve likely come across both microneedling and RF microneedling. While they may sound similar, they actually work at different depths and are designed for different types of skin concerns.' },
 
       { type: 'paragraph', text: 'At Lalalu Skin & Laser, we offer both treatments, and one of the most common questions we get is: “Which one is better?” The truth is—it depends on your skin. This guide will help you understand the difference so you can choose the right treatment with confidence.' },
       
@@ -310,14 +310,14 @@ export const blogPosts: BlogPost[] = [
 
       { type: 'quote', text: 'At-home microneedling can help maintain your skin—but professional microneedling is what actually transforms it.' },
 
-      { type: 'heading', level: 2, text: 'What is Morpheus8 RF Microneedling?' },
-      { type: 'image', src: '/blog/morpheus8.JPG', alt: 'morpheus8 treatment', aspect: 'landscape', size: 'small' },
+      { type: 'heading', level: 2, text: 'What is RF Microneedling?' },
+      { type: 'image', src: '/blog/rfmicroneedling.JPG', alt: 'rf microneedling treatment', aspect: 'landscape', size: 'small' },
 
-      { type: 'paragraph', text: 'Morpheus8 takes traditional microneedling a step further by combining it with radiofrequency (RF) energy. This means that while the needles penetrate the skin, heat energy is delivered deep into the tissue at the same time.' },
+      { type: 'paragraph', text: 'RF microneedling takes traditional microneedling a step further by combining it with radiofrequency (RF) energy. This means that while the needles penetrate the skin, heat energy is delivered deep into the tissue at the same time.' },
 
-      { type: 'paragraph', text: 'This added heat stimulates a much stronger collagen response and also tightens the skin from within. Because of this, Morpheus8 can treat deeper concerns that regular microneedling alone cannot fully address.' },
+      { type: 'paragraph', text: 'This added heat stimulates a much stronger collagen response and also tightens the skin from within. Because of this, RF microneedling can treat deeper concerns that regular microneedling alone cannot fully address.' },
 
-      { type: 'paragraph', text: 'Because it works at deeper layers of the skin, Morpheus8 is often used for more advanced concerns and can deliver both resurfacing and tightening in a way that traditional microneedling cannot.' },
+      { type: 'paragraph', text: 'Because it works at deeper layers of the skin, this treatment is often used for more advanced concerns and can deliver both resurfacing and tightening in a way that traditional microneedling cannot.' },
 
       { type: 'heading', level: 3, text: 'What it helps with:' },
       { type: 'list', items: [
@@ -328,7 +328,7 @@ export const blogPosts: BlogPost[] = [
         'Stretch marks and deeper texture concerns'
       ]},
 
-      { type: 'instagram', url: 'https://www.instagram.com/p/DTT1hw9gV_l/', title: 'Morpheus8 Up Close' },
+      // { type: 'instagram', url: 'https://www.instagram.com/p/DTT1hw9gV_l/', title: 'RF Microneedling Up Close' },
 
       { type: 'heading', level: 2, text: 'Key Differences (Simple Breakdown)' },
 
@@ -336,9 +336,9 @@ export const blogPosts: BlogPost[] = [
 
       { type: 'list', items: [
         'Microneedling focuses on improving skin texture and surface-level concerns',
-        'Morpheus8 works deeper to tighten, lift, and remodel the skin',
+        'RF Microneedling works deeper to tighten, lift, and remodel the skin',
         'Microneedling is great for beginners or maintenance',
-        'Morpheus8 is ideal for more advanced concerns and stronger results'
+        'RF Microneedling is ideal for more advanced concerns and stronger results'
       ]},
 
       { type: 'heading', level: 2, text: 'Which One Should You Choose?' },
@@ -353,7 +353,7 @@ export const blogPosts: BlogPost[] = [
 
       { type: 'paragraph', text: 'Microneedling is perfect if your goal is to improve overall skin quality and maintain a healthy glow without going too aggressive.' },
 
-      { type: 'heading', level: 3, text: 'Choose Morpheus8 if you:' },
+      { type: 'heading', level: 3, text: 'Choose RF Microneedling if you:' },
       { type: 'list', items: [
         'Have deeper acne scars or more noticeable texture',
         'Are experiencing skin laxity or sagging',
@@ -361,7 +361,7 @@ export const blogPosts: BlogPost[] = [
         'Are looking for more dramatic, long-term results'
       ]},
 
-      { type: 'paragraph', text: 'Morpheus8 is ideal if you’re ready to target deeper concerns and want both resurfacing and lifting in one treatment.' },
+      { type: 'paragraph', text: 'RF microneedling is ideal if you’re ready to target deeper concerns and want both resurfacing and lifting in one treatment.' },
 
       { type: 'heading', level: 2, text: 'What About Downtime?' },
 
@@ -369,10 +369,10 @@ export const blogPosts: BlogPost[] = [
 
       { type: 'list', items: [
         'Microneedling: mild redness for 1–3 days, similar to a light sunburn',
-        'Morpheus8: 3–5 days of redness, possible swelling, and slightly more sensitivity'
+        'RF Microneedling: 3–5 days of redness, possible swelling, and slightly more sensitivity'
       ]},
 
-      { type: 'paragraph', text: 'Both treatments are very manageable, but Morpheus8 is a bit more intensive due to the added RF energy.' },
+      { type: 'paragraph', text: 'Both treatments are very manageable, but RF microneedling is a bit more intensive due to the added RF energy.' },
 
       {
         type: 'heading',
@@ -383,16 +383,16 @@ export const blogPosts: BlogPost[] = [
         type: 'list',
         items: [
           'Microneedling: visible glow within a few days, with collagen improvements over 3–4 weeks',
-          'Morpheus8: initial tightening within days, with full results developing over 4–8 weeks',
+          'RF Microneedling: initial tightening within days, with full results developing over 4–8 weeks',
           'Both treatments improve with multiple sessions and long-term collagen production'
         ]
       },
 
       { type: 'heading', level: 2, text: 'Final Thoughts' },
 
-      { type: 'paragraph', text: 'Microneedling and Morpheus8 are both powerful treatments—but they are designed for different levels of skin concerns. One isn’t necessarily “better” than the other—it’s about choosing what your skin actually needs.' },
+      { type: 'paragraph', text: 'Microneedling and RF Microneedling are both powerful treatments—but they are designed for different levels of skin concerns. One isn’t necessarily “better” than the other—it’s about choosing what your skin actually needs.' },
 
-      { type: 'paragraph', text: 'If you are searching for microneedling or Morpheus8 in Calgary, understanding the difference can help you choose the right treatment for your skin.' },
+      { type: 'paragraph', text: 'If you are searching for microneedling or RF Microneedling in Calgary, understanding the difference can help you choose the right treatment for your skin.' },
 
       { type: 'paragraph', text: 'If you’re unsure, the best next step is a personalized consultation. We’ll assess your skin, talk through your goals, and recommend the treatment that will give you the best results.' },
 

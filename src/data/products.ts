@@ -12,8 +12,8 @@ export const products = [
     ]
   },
   {
-    id: 'morpheus8-microneedling',
-    name: 'Morpheus 8 Microneedling',
+    id: 'rf-microneedling',
+    name: 'RF Microneedling',
     price: 49999,
     description: 'A professional-grade hydrofacial machine that deeply cleanses, exfoliates, and hydrates the skin. Ideal for spas and clinics offering advanced facial treatments.',
     images: [
